@@ -13,6 +13,8 @@ class ArticlesController < ApplicationController
     redirect_to articles_show(@article)
     
   end
+  def try
+  end
   
   private 
   def article_params
